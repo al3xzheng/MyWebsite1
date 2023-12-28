@@ -4,7 +4,7 @@
 }
 
 #bg {
-    background-image: url('websitePicture.jpg');
+    background-image: url('Graphics/websitePicture.jpg');
     background-size: cover;
     width: 100%;
     height: 100%; 
@@ -15,22 +15,139 @@
 }
 
 .content {
-    text-align: center;
-    margin-top: 40px;
     z-index: 1;
 }
 
 #title {
     position: absolute;
+    left:50%;
+    top: 140px;
+    transform: translate(-50%, -50%); /*forcibly centers content (absolute) */
     color: rgb(241, 206, 162);
     font-size: 128px;
-    padding: 10px;
-    top: 130px;
-    transform: translate(-50%, -50%); /*forcibly centers content (absolute) */
+    padding: 15px;
     font-family: angelastation;
     background-image: linear-gradient(to top, rgba(145, 201, 14, 0), rgb(117, 81, 122));
     box-shadow: 0 0 8px 8px rgb(86, 187, 128);
     border-radius: 50px;
     /* filter: blur(1px); */
 }
+
+#linkedin {
+    background-color:aliceblue;
+    object-fit: cover;
+    position:absolute;
+    left:440px;
+    top:184px;
+    width:42px;
+    height:auto;
+    border-radius: 5px;
+}
+
+#github {
+    background-color: aliceblue;
+    position:absolute;
+    left:500px;
+    top:186px;
+    width:auto;
+    height:40px;
+    border-radius: 5px;
+}
+
+.collections{
+    position: absolute;
+    top:20px;
+    width: 100%;
+}
+
+.coding{
+    position:absolute;
+    top: 297px;
+    left: 900px;
+    width: 100%;
+}
+
+#codinghead {
+    background-image: url('Graphics/codingbg.png');
+    padding: 7px;
+    font-size: 85px;
+    color:rgb(124, 124, 151);
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 0 0px 8px 8px rgba(255, 243, 218, 0.737);
+    border-radius: 25px;
+}
+
+#spearknight {
+    position:absolute;
+    top: 150px;
+    left: 60px;
+    font-size: 25px;
+    background-color: rgb(170, 154, 183);
+    border-radius: 10px;
+    padding: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#personalwebsite {
+    position:absolute;
+    top: 200px;
+    left: 60px;
+    font-size: 25px;
+    background-color: rgb(237, 227, 245);
+    border-radius: 10px;
+    padding: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.solidworksdesigns{
+    position:absolute;
+    top: 300px;
+    left: 178px;
+}
+
+#solidworksImg {
+    background-image: url('Graphics/solidworksbg.png');
+    padding: 10px;
+    border-radius: 25px;
+    width: 500px;
+    height: auto;
+    box-shadow: 0 0 8px 8px rgb(215, 240, 225);
+}
+
+#chair {
+    position:absolute;
+    top: 150px;
+    left: 75px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+}
+
+#trampoline {
+    position:absolute;
+    top: 200px;
+    left: 75px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+}
+
+#cup {
+    position:absolute;
+    top: 250px;
+    left: 75px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+}
+
+#inprogress {
+    position:absolute;
+    top: 300px;
+    left: 75px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+}
+
 
