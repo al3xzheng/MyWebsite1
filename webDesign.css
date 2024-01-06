@@ -1,21 +1,33 @@
+html {
+  overflow-x: hidden;
+}
+
+.container {
+  z-index:-1;
+  width: 100%;
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+}
+
 @font-face {
   font-family: angelastation;
   src: url(AngelaStationDemoRegular.ttf);
 }
 
-#bg {
+.page1 {
   background-image: url('Graphics/websitePicture.jpg');
   background-size: cover;
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  z-index: -1;
-}
-
-.content {
-  z-index: 1;
+  width:100%;
+  height: 100vh;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  /* gap: 50px; */
+  color: rgb(207, 119, 31);
+  scroll-snap-align: start;
+  padding:0;
+  margin:0;
+  overflow-y: scroll;
 }
 
 #title {
@@ -240,5 +252,72 @@
   border-radius: 10px;
   cursor:pointer;
   transition: opacity 0.15s, background-color 0.5s, box-shadow 0.15s;
-
 }
+
+.page2{
+  z-index:1;
+  background-image: url('Graphics/rockuphill.png');
+  background-size: cover;
+  width:100%;
+  height:100vh;
+  display:flex;
+  justify-content: baseline;
+  scroll-snap-align: start;
+  padding:0;
+  margin:0;
+  overflow-y: scroll;
+  z-index:1;
+}
+
+#title2 {
+  position:absolute;
+  left:0;
+  left:50%;
+  font-family: angelastation;
+  font-size: 80px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  text-decoration: underline;
+  margin-top: 65px;
+  background-color: rgb(189, 255, 255);
+  border-radius: 25px;
+  padding: 10px;
+}
+
+#subtitle2 {
+  position: relative;
+  color: rgb(20, 105, 28);
+  background-color: aquamarine;
+  top:140px;
+  left:10px;
+  font-size: 40px;
+  text-align: center;
+  margin-top:20px;
+  margin-bottom: 30px;
+  padding:6px;
+  border-radius:25px;
+}
+
+#text2 {
+  text-align: center;
+  position:absolute;
+  left:50%;
+  transform: translate(-50%, -50%);
+  top:0;
+  top:1150px;
+  width:1200px;
+  padding:6px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  overflow-y: scroll;
+  color: rgb(0, 0, 0);
+  line-height: 35px;
+  font-size: 20px;
+  color: azure;
+  background-color: brown;
+  border-radius:8px;
+  font-weight: bold;
+}
+
+
+
