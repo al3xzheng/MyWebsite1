@@ -1,0 +1,24 @@
+.container{
+    background-color: rgb(97, 126, 151);
+    background-size: cover;
+    left:0;
+    top:0;
+    width:100%;
+    height:100vh;
+    margin:0;
+}
+
+#title{
+    position: absolute;
+    text-align: center;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width:100%;
+
+    font-size: 60px;
+
+    margin-top:20px;
+
+    text-decoration: underline;
+    color: rgb(105, 105, 201);
+}
