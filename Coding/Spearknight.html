@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spear Knight</title>
+    <link rel="stylesheet" href="./Spearknight.css" />
+</head>
+<body>
+    <a href="//C:\Users\Alex\Documents\ProblemSolving\Web Dev\MyWebsite\index.html">
+        <img id="back" src="//C:\Users\Alex\Documents\ProblemSolving\Web Dev\MyWebsite\Graphics\back.png">
+    </a>
+    <div class="container">
+        <a id="link" href="https://github.com/al3xzheng/Game">
+            View On GitHub
+        </a>
+        <h1>
+            <span id="title">
+                Spear Knight
+            </span>
+        </h1>
+        <p id="text">
+            This is a PyGame developed top-down shooter game where you try to kill enemies, dodge enemy projectiles, and survive for
+            as many waves as possible! <br><br>
+
+            This game was created from September 2023-December 2023 with Parsia Nejad-Sattary and Sean Yuen as part of a project for our programming (Python)
+            course. I was responsible for the enemy-fire functions; the tracking of the enemy projectiles to the player periodically. The way it works.
+            Each enemy's location is stored in a list, so while the round is active, we copy the exact location of each enemy and the player at a 
+            given point in time (simple). Then we run through a for-loop for each enemy and generate a rotated-accordingly projectile directed at the 
+            player. The projectiles are locked in this direction and move towards the player (which the player will dodge). 
+            Ongoing, we have a counter that keeps track of the projectiles that leave the screen or hit the player, once all the projectiles are nullified, 
+            the firing restarts. The complexities of this task were found in its integration in the code as Sean implemented the enemy-follow functions beforehand, 
+            and debugging the occurence when the enemy is killed while the projectile is also nullified. This was very time-consuming to debug. The solution was found
+            through asking myself "what exactly is the problem to solve?" over and over again. If the enemy is killed and the projectile is out of the screen, the counter would be bugged
+            and the game wouldn't reset properly. Truthfully, I don't remember the problem exactly, but I remember the grueling struggle; but, it's all solved!
+
+            <br><br>
+            Note to self: figure out the problem i was dealing with and explain it.
+            <br><br>
+            The game version below is outdated. New vid is coming.
+        </p>
+        <video id="vid" autoplay muted controls>
+            <source src="//C:\Users\Alex\Documents\ProblemSolving\Web Dev\MyWebsite\Graphics\Spear Knight Vid.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          <!-- controls loop -->
+          </video> 
+    </div>
+    <p id="dummy">
+        &#160
+    </p>
+</body>
+</html>
