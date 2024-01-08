@@ -28,7 +28,7 @@ html {
 }
 
 .page1 {
-  background-image: url('Graphics/websitePicture.jpg');
+  background-image: url('websitePicture.jpg');
   background-size: cover;
   width:100%;
   height: 100vh;
@@ -169,7 +169,7 @@ html {
 }
 
 #codinghead {
-  background-image: url('Graphics/codingbg.png');
+  background-image: url('codingbg.png');
   padding: 7px;
   font-weight:bold;
   font-size: 85px;
@@ -235,7 +235,7 @@ html {
 }
 
 #solidworksImg {
-  background-image: url('Graphics/solidworksbg.png');
+  background-image: url('solidworksbg.png');
   padding: 10px;
   border-radius: 25px;
   width: 500px;
@@ -316,7 +316,7 @@ html {
 
 .page2{
   z-index:1;
-  background-image: url('Graphics/rockuphill.png');
+  background-image: url('rockuphill.png');
   background-size: cover;
   width:100%;
   height:100vh;
