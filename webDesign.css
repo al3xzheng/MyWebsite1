@@ -396,7 +396,7 @@ html {
   color: azure;
   background-color: brown;
   background-image: linear-gradient(to top, rgba(145, 201, 14, 0), rgb(238, 200, 135));
-
+  box-shadow: 0 0 8px 8px rgb(58, 116, 25);
   border-radius:25px;
 }
 
