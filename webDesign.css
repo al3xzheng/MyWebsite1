@@ -356,7 +356,7 @@ html {
   margin-top: 65px;
   background-color: rgb(189, 255, 255);
   background-image: linear-gradient(to top, rgba(145, 201, 14, 0), rgb(99, 133, 173));
-  box-shadow: 0 0 8px 8px rgb(194, 144, 64);
+  box-shadow: 0 0 8px 8px rgb(226, 202, 165);
   border-radius: 25px;
   padding: 10px;
 }
@@ -395,6 +395,8 @@ html {
   font-size: 30px;
   color: azure;
   background-color: brown;
+  background-image: linear-gradient(to top, rgba(145, 201, 14, 0), rgb(238, 200, 135));
+
   border-radius:25px;
 }
 
