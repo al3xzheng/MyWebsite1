@@ -258,12 +258,12 @@ html {
   transition: opacity 0.15s, background-color 0.5s, box-shadow 0.15s;
 }
 
-#chair:hover, #trampoline:hover, #cup:hover, #capacitor:hover, #inprogress:hover{
+#chair:hover, #trampoline:hover, #cup:hover, #capacitor:hover, #A380:hover{
   opacity:0.85 ;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
-#chair:active, #trampoline:active, #cup:active, #capacitor:active, #inprogress:active{
+#chair:active, #trampoline:active, #cup:active, #capacitor:active, #A380:active{
   background-color: rgb(210, 224, 145);
   opacity:0.7 ;
 }
@@ -315,7 +315,8 @@ html {
 
 }
 
-#inprogress {
+#A380 {
+  background-color: rgb(227, 237, 137);
   position: absolute;
   top: 350px;
   left: 40px;
