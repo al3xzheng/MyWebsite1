@@ -253,6 +253,13 @@ html {
   color:rgb(0, 0, 0)
 }
 
+.designs {
+  position: absolute;
+  width:100%;
+  top: 300px;
+  left:15%;
+}
+
 .solidworksdesigns {
   position: absolute;
   width:100%;
