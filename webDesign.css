@@ -528,4 +528,11 @@ html {
   }
 }
 
+#note {
+  position: absolute;
+  top: 1850px;
+  left:90px;
+  color: aliceblue;
+  font-family: 'Courier New', Courier, monospace;
+}
 
