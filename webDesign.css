@@ -43,6 +43,25 @@ html {
   overflow-y: scroll;
 }
 
+/* @media only screen and (max-width: 20000px) { */
+  #title {
+    position: absolute;
+    left: 50%;
+    top: 140px;
+    width:max-content;
+    transform: translate(-50%, -50%);
+    /*forcibly centers content (absolute) */
+    color: rgb(241, 206, 162);
+    font-size: 80px;
+    padding: 15px;
+    font-family: angelastation;
+    background-image: linear-gradient(to top, rgba(145, 201, 14, 0), rgb(117, 81, 122));
+    box-shadow: 0 0 8px 8px rgb(86, 187, 128);
+    border-radius: 50px;
+    /* filter: blur(1px); */
+  }
+/* } */
+
 #title {
   position: absolute;
   left: 50%;
@@ -436,7 +455,7 @@ html {
 
 #dragonboat1 {
   position: absolute;
-  top: 1395px;
+  top: 167%;
   left: 20%;
   width: 350px;
   height: auto;
@@ -448,7 +467,7 @@ html {
 
 #dragonboat2 {
   position: absolute;
-  top: 1410px;
+  top: 170%;
   left: 58%;
   width: 350px;
   height: auto;
@@ -456,6 +475,57 @@ html {
   border-radius: 18px;
   border-color: rgb(104, 120, 120);
   border-width: 3px;
+}
+
+.page3{
+  z-index:1;
+  background-image: url('beautiful rails.jpg');
+  background-size: cover;
+  width:100%;
+  height:100vh;
+  display:flex;
+  justify-content: baseline;
+  scroll-snap-align: start;
+  padding:0;
+  margin:0;
+  overflow-y: scroll;
+  z-index:1;
+}
+
+#title3 {
+  position:absolute;
+  left:0;
+  left:50%; 
+  font-family: angelastation;
+  font-size: 80px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  text-decoration: underline;
+  margin-top: 65px;
+  background-color: rgb(189, 255, 255);
+  background-image: linear-gradient(to top, rgba(255, 255, 255, 0), rgb(234, 110, 166));
+  box-shadow: 0 0 8px 8px rgb(71, 154, 170);
+  border-radius: 25px;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 1400px) {
+  #title3 {
+    position:absolute;
+    left:0;
+    left:50%;
+    font-family: angelastation;
+    font-size: 70px;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    text-decoration: underline;
+    margin-top: 65px;
+    background-color: rgb(189, 255, 255);
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0), rgb(234, 110, 166));
+    box-shadow: 0 0 8px 8px rgb(71, 154, 170);
+    border-radius: 25px;
+    padding: 10px;
+  }
 }
 
 
